@@ -47,6 +47,15 @@
   box-sizing: border-box;
 }
 
+#profile{
+  background-image: url(../img/profilepict.png);
+  height:28vh;
+  width:12vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -6211,7 +6220,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: orange !important;
 }
 
 .bg-secondary {
