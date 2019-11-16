@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+html {
+    font-family: Poppins;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+header,footer {
+    color:white;
+    text-align: center;
+}
+
+header {
+    margin: 100px 0 100px 0;
+}
+
+footer {
+    margin: 60px auto;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.projects {
+    text-align: center;
+    width:100%;
+}
+
+.projects img {
+    margin: 1%;
+    width:45%;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width:991px) {
+    .projects img {
+        margin: 2%;
+        width: 90%;
+    }
+}
