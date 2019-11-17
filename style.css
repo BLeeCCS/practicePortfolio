@@ -22,11 +22,11 @@ header,footer {
 }
 
 header {
-    margin: 100px 0 100px 0;
+    margin: 10px 0 10px 0;
 }
 
 footer {
-    margin: 60px auto;
+    margin: 10px auto;
 }
 
 h1 {
@@ -40,7 +40,7 @@ h1 {
 
 .projects img {
     margin: 1%;
-    width:45%;
+    width:30%;
 }
 
 /* Responsiveness */
@@ -49,5 +49,11 @@ h1 {
     .projects img {
         margin: 2%;
         width: 90%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    h1 {
+        font-size: 30px;
     }
 }
